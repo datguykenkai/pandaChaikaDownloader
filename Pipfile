@@ -9,6 +9,7 @@ bs4 = "*"
 clint = "*"
 py2exe = "*"
 pyinstaller = "*"
+easygui = "*"
 
 [dev-packages]
 

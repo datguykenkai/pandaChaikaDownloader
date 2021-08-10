@@ -1,3 +1,5 @@
+from easygui import diropenbox
+
 def get_download_range(num_url: int):
     while True:
         try:
@@ -21,4 +23,5 @@ def get_confirm_download():
         print("invalid value")
 
 def get_download_dir():
-    return input("Folder to put downloads to:")
+    return diropenbox()
+    # return input("Folder to put downloads to:")
